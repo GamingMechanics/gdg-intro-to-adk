@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ## Environment Variables
 
-Create a `.env` file in the root directory with the following variables:
+Create a `.env` file in the `multi_tool_agent` directory with the following variables:
 
 ```env
 GOOGLE_GENAI_USE_VERTEXAI=FALSE
