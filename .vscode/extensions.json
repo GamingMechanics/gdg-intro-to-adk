@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "KevinRose.vsc-python-indent",
+    "ms-python.debugpy",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
