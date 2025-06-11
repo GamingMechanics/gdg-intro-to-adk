@@ -41,6 +41,13 @@ Replace the placeholder values with your actual API keys:
 - Get a WeatherAPI key from [WeatherAPI.com](https://www.weatherapi.com/)
 - Get a Google API key from the [Google AI Studio](https://aistudio.google.com/apikey)
 
+## Using Anthropic
+
+Since this project is using LiteLlm, it is possible to use models other than Google's, such as Anthropic's.
+If you have an API key for Anthropic and you'd like to use, for example, Claude 3.7, set an environment variable in the `.env` file created in the step above called `ANTHROPIC_API_KEY` and set it to your API key.
+
+In the models, create a constant for the name of the model you'd like to use, such as `MODEL_CLAUDE_3_7 = "anthropic/claude-3-7-sonnet-20250219"` and use that instead of the `MODEL_GEMINI_2_0_FLASH` constant in the Agent declaration.
+
 ## Project Structure
 
 ```
